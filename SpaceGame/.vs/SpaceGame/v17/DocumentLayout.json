@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actiongetinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actiongetinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actionrefuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actionrefuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actionscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actionscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\ishipstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:ishipstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\stateorbitingbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:stateorbitingbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\statedocked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:statedocked.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\starsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:starsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actionundock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actionundock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actionexecutejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actionexecutejump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\bodystation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:bodystation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\bodyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:bodyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actionjumpselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actionjumpselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|c:\\users\\szych\\desktop\\agh\\designing high apps\\spacegame\\actiondock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9821DEC-4F9A-4C79-AB6C-4D3500D35C75}|SpaceGame.csproj|solutionrelative:actiondock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StateOrbitingBody.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StateOrbitingBody.cs",
+              "RelativeDocumentMoniker": "StateOrbitingBody.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StateOrbitingBody.cs",
+              "RelativeToolTip": "StateOrbitingBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T14:35:10.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:45:18.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Parameters.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Parameters.cs",
+              "RelativeDocumentMoniker": "Parameters.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Parameters.cs",
+              "RelativeToolTip": "Parameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:56:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IShipState.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\IShipState.cs",
+              "RelativeDocumentMoniker": "IShipState.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\IShipState.cs",
+              "RelativeToolTip": "IShipState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:47:04.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActionScan.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionScan.cs",
+              "RelativeDocumentMoniker": "ActionScan.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionScan.cs",
+              "RelativeToolTip": "ActionScan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T14:41:36.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActionRefuel.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionRefuel.cs",
+              "RelativeDocumentMoniker": "ActionRefuel.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionRefuel.cs",
+              "RelativeToolTip": "ActionRefuel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:53:00.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActionGetInfo.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionGetInfo.cs",
+              "RelativeDocumentMoniker": "ActionGetInfo.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionGetInfo.cs",
+              "RelativeToolTip": "ActionGetInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:18:23.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Result.cs",
+              "RelativeDocumentMoniker": "Result.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Result.cs",
+              "RelativeToolTip": "Result.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:50:23.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:45:31.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\UI.cs",
+              "RelativeDocumentMoniker": "UI.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\UI.cs",
+              "RelativeToolTip": "UI.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:48:37.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StateDocked.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StateDocked.cs",
+              "RelativeDocumentMoniker": "StateDocked.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StateDocked.cs",
+              "RelativeToolTip": "StateDocked.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:47:10.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StarSystem.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StarSystem.cs",
+              "RelativeDocumentMoniker": "StarSystem.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\StarSystem.cs",
+              "RelativeToolTip": "StarSystem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:33:49.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Ship.cs",
+              "RelativeDocumentMoniker": "Ship.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Ship.cs",
+              "RelativeToolTip": "Ship.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:46:27.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActionUndock.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionUndock.cs",
+              "RelativeDocumentMoniker": "ActionUndock.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionUndock.cs",
+              "RelativeToolTip": "ActionUndock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:38:12.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActionExecuteJump.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionExecuteJump.cs",
+              "RelativeDocumentMoniker": "ActionExecuteJump.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionExecuteJump.cs",
+              "RelativeToolTip": "ActionExecuteJump.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:09:13.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAction.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\IAction.cs",
+              "RelativeDocumentMoniker": "IAction.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\IAction.cs",
+              "RelativeToolTip": "IAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:46:19.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BodyStation.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\BodyStation.cs",
+              "RelativeDocumentMoniker": "BodyStation.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\BodyStation.cs",
+              "RelativeToolTip": "BodyStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T14:52:55.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BodyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\BodyFactory.cs",
+              "RelativeDocumentMoniker": "BodyFactory.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\BodyFactory.cs",
+              "RelativeToolTip": "BodyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:34:58.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Component.cs",
+              "RelativeDocumentMoniker": "Component.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Component.cs",
+              "RelativeToolTip": "Component.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:46:34.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ActionJumpSelection.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionJumpSelection.cs",
+              "RelativeDocumentMoniker": "ActionJumpSelection.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionJumpSelection.cs",
+              "RelativeToolTip": "ActionJumpSelection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:55:01.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Body.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Body.cs",
+              "RelativeDocumentMoniker": "Body.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\Body.cs",
+              "RelativeToolTip": "Body.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:54:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActionDock.cs",
+              "DocumentMoniker": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionDock.cs",
+              "RelativeDocumentMoniker": "ActionDock.cs",
+              "ToolTip": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\ActionDock.cs",
+              "RelativeToolTip": "ActionDock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T13:41:34.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

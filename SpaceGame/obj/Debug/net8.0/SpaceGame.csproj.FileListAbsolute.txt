@@ -1,0 +1,14 @@
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\bin\Debug\net8.0\SpaceGame.exe
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\bin\Debug\net8.0\SpaceGame.deps.json
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\bin\Debug\net8.0\SpaceGame.runtimeconfig.json
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\bin\Debug\net8.0\SpaceGame.dll
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\bin\Debug\net8.0\SpaceGame.pdb
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.AssemblyInfoInputs.cache
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.AssemblyInfo.cs
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.csproj.CoreCompileInputs.cache
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.dll
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\refint\SpaceGame.dll
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.pdb
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\SpaceGame.genruntimeconfig.cache
+C:\Users\szych\Desktop\AGH\Designing high apps\SpaceGame\obj\Debug\net8.0\ref\SpaceGame.dll
