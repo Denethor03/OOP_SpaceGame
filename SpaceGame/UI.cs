@@ -8,12 +8,12 @@ namespace SpaceGame
 {
     internal class UI
     {
-        public void displayResult(Result result)
+        public void DisplayResult(Result result)
         {
             Console.Clear();
             Console.WriteLine(result.Message);
         }
-        public IAction chooseAction(List<IAction> actions)
+        public IAction ChooseAction(List<IAction> actions)
         {
             while (true) {
                 //Console.WriteLine("Select action:");
@@ -21,14 +21,21 @@ namespace SpaceGame
                 {
                     Console.WriteLine($"{i + 1}. {actions[i].Name}");
                 }
-                string select = Console.ReadLine();
+                var select = Console.ReadLine();
                 if (int.TryParse(select, out int id))
                 {
-                    if(id > actions.Count) { Console.WriteLine($"DEBUG: The selected action is null"); return null; } //temp
+                    if (id > actions.Count) { Console.WriteLine($"DEBUG: The selected action is null"); return null; } //temp
                     return actions[id-1];
                 }
             }
             
+        }
+        public int SelectSize()
+        {
+            Console.WriteLine("Please select Universe size (number of systems):");
+            var userInput = Console.ReadLine();
+            int.TryParse(userInput, out int select);
+            return select;
         }
 
     }

@@ -8,6 +8,7 @@ namespace SpaceGame
 {
     internal class Ship
     {
+        public readonly Universe currentUniverse;
         private Body currentBody;
         private StarSystem currentSystem;
         private IShipState currentState;
@@ -23,10 +24,11 @@ namespace SpaceGame
 
         public Body CurrentBody { get => currentBody; set => currentBody = value; }
 
-        public Ship(StarSystem system)
+        public Ship(Universe universe)
         {
-            currentSystem = system;
-            currentBody = system.Bodies[0]; //assume sun is 1st body in list
+            this.currentUniverse = universe;
+            currentSystem = universe.starSystems[0]; //assume first system is starter system
+            currentBody = currentSystem.Bodies[0]; //assume sun is 1st body in list
             this.currentState = new StateDocked();
             Credits = 0;
             MaxFuel = 100;

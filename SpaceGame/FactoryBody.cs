@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SpaceGame
 {
-    internal abstract class BodyFactory
+    internal abstract class FactoryBody
     {
-        public abstract Body CreateBody(Parameters parameters);
+        public abstract Body CreateBody(string system, int number, int orbitDistance);
     }
 }

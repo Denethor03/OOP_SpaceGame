@@ -14,6 +14,7 @@ namespace SpaceGame
             List<IAction> _actions = new List<IAction>();
             _actions.Add(new ActionJumpSelection());
             _actions.Add(new ActionGetInfo());
+            _actions.Add(new ActionSystemJumpSelection());
             if (ship.CurrentBody is BodyStation) { _actions.Add(new ActionDock()); }
             
             return _actions;

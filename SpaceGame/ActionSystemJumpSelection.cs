@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace SpaceGame
 {
-    internal class ActionJumpSelection : IAction
+    internal class ActionSystemJumpSelection : IAction
     {
-        public string Name => "Perform jump in system";
+        public string Name => "Perform jump to another system";
         public Result Execute(Ship ship)
         {
             List<IAction> followUpAction = new List<IAction>();
-            foreach(Body body in ship.CurrentSystem.Bodies)
+            foreach (StarSystem system in ship.currentUniverse.starSystems)
             {
-                followUpAction.Add(new ActionExecuteJump(body));
+                followUpAction.Add(new ActionExecuteSystemJump(system));
             }
             followUpAction.Add(new ActionCancel());
-            return new Result("Please select jump destination:",followUpAction);
+            return new Result("Please select jump destination:", followUpAction);
         }
     }
 }

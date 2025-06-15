@@ -18,11 +18,12 @@ namespace SpaceGame
 
 
         public Body(string name,
-            bool canLand, Vector3 coordinates)
+            bool canLand, Vector3 coordinates, int scanValue)
         {
             this.name = name;
-            this.CanLand = canLand;
-            this.Coordinates = coordinates;
+            CanLand = canLand;
+            Coordinates = coordinates;
+            this.scanValue = scanValue;
           
         }
 

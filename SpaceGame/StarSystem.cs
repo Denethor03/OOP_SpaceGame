@@ -24,5 +24,10 @@ namespace SpaceGame
             this.bodies = bodies;
             this.systemCoords = systemCoords;
         }
+
+        public void AddBody(Body body)
+        {
+            bodies.Add(body);
+        }
     }
 }

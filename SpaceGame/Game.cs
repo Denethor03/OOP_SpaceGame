@@ -9,31 +9,32 @@ namespace SpaceGame
 {
     internal class Game
     {
+        private Universe? gameWorld;
         public UI? userInterface;
-        public Body? station1, station2, station3;
         private Ship? ship;
-        public StarSystem? starSystem;
         public void Run()
         {
             userInterface = new UI();
-            station1 = new BodyStation("test_station", new Vector3(0, 0, 0));
-            station2 = new BodyStation("jump_destinationA", new Vector3(1, 1, 1));
-            station3 = new BodyStation("jump_destinationB", new Vector3(2, 2, 2));
-            List<Body> bodies = new List<Body>();
-            bodies.Add(station1);
-            bodies.Add(station2);
-            bodies.Add(station3);
-            starSystem = new StarSystem("Starter system", bodies, new Vector3(0, 0, 0));
-            ship = new Ship(starSystem);
+            int size = userInterface.SelectSize();
+            
+            FactoryPlanet planetFactory = new FactoryPlanet();
+            FactoryStation stationFactory = new FactoryStation();
+            FactorySystem systemFactory = new FactorySystem(planetFactory,stationFactory);
+            
+            List<StarSystem> starSystems = systemFactory.CreateSystem(size);
+            gameWorld = new Universe(starSystems);
+            
+            Ship ship = new Ship(gameWorld);
+           
             Console.WriteLine("Game started");
             
             List<IAction> actions = ship.GetActionList();
 
             while (true)
             {
-                IAction selectedAction = userInterface.chooseAction(actions);
+                IAction selectedAction = userInterface.ChooseAction(actions);
                 Result result = ship.PerformAction(selectedAction);
-                userInterface.displayResult(result);
+                userInterface.DisplayResult(result);
 
                 if (result.followUpActions.Any())
                 {
