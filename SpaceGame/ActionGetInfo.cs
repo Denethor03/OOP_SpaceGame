@@ -13,7 +13,8 @@ namespace SpaceGame
         {
             return new Result($"Current location:{ship.CurrentBody.Name} at system {ship.CurrentSystem.Name}\n" +
                 $"Current fuel: {ship.Fuel}\n" +
-                $"Current credits: {ship.Credits}\n");
+                $"Current credits: {ship.Credits}\n" +
+                $"Scanned data value: {ship.ScanReward}");
         }
         
     }

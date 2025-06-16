@@ -10,20 +10,26 @@ namespace SpaceGame
     internal abstract class Body
     {
         private string name;
-        private Vector3 Coordinates;
-        private bool CanLand;
-        public int scanValue { get; protected set; }
-        public string Name { get => name; set => name = value; }
+        private Vector3 coordinates;
+        private bool canLand;
+        private string description;
+        private bool scanned = false;
+        public string Description { get => description; }
+        public int scanValue { get;  }
+        public string Name { get => name; }
+        
+        public bool Scanned { get=> scanned; set=> scanned = value; }
        
 
 
         public Body(string name,
-            bool canLand, Vector3 coordinates, int scanValue)
+            bool canLand, Vector3 coordinates, int scanValue,string description)
         {
             this.name = name;
-            CanLand = canLand;
-            Coordinates = coordinates;
+            this.canLand = canLand;
+            this.coordinates = coordinates;
             this.scanValue = scanValue;
+            this.description = description;
           
         }
 

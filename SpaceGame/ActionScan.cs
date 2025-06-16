@@ -11,8 +11,23 @@ namespace SpaceGame
         public string Name => "Scan object";
         public Result Execute(Ship ship)
         {
-            ship.ScanReward += ship.GetCurrentBody().scanValue;
-            return new Result("Scan completed");
+
+            if (!ship.CurrentBody.Scanned)
+            { 
+                ship.ScanReward += ship.GetCurrentBody().scanValue;
+                ship.CurrentBody.Scanned = true;
+                return new Result($"Scan completed.\n" +
+                    $"Planet: {ship.CurrentBody.Name}\n" +
+                    $"{ship.CurrentBody.Description}\n" +
+                    $"Scan value: {ship.CurrentBody.scanValue}");
+            }
+            else
+            {
+                return new Result($"Scan completed.\n" +
+                    $"Planet: {ship.CurrentBody.Name}\n" +
+                    $"{ship.CurrentBody.Description}\n" +
+                    $"Scan value: already scanned");
+            }
         }
     }
 }

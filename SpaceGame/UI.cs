@@ -16,11 +16,16 @@ namespace SpaceGame
         public IAction ChooseAction(List<IAction> actions)
         {
             while (true) {
-                //Console.WriteLine("Select action:");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("=================");
+                Console.ForegroundColor = ConsoleColor.White;
                 for (int i = 0; i < actions.Count; i++)
                 {
                     Console.WriteLine($"{i + 1}. {actions[i].Name}");
                 }
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                Console.WriteLine("=================");
+                Console.ResetColor();
                 var select = Console.ReadLine();
                 if (int.TryParse(select, out int id))
                 {

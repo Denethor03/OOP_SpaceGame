@@ -11,7 +11,7 @@ namespace SpaceGame
     {
         private readonly Random _random = new Random();
 
-        public override Body CreateBody(string systemName, int number, int orbitDistance)
+        public override BodyPlanet CreateBody(string systemName, int number, int orbitDistance)
         {
             int templateIndex = _random.Next(0, Parameters.planetTemplates.Count);
             

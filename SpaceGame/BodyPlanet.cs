@@ -9,11 +9,10 @@ namespace SpaceGame
 {
     internal class BodyPlanet : Body
     {
-        private string desctiption;
-        public string Desctiption { get => desctiption; }
-        public BodyPlanet(string name, Vector3 coords, bool canLand, string descrtiption,int scanValue) : base(name, canLand, coords,scanValue)
+        
+        public BodyPlanet(string name, Vector3 coords, bool canLand, string descrtiption,int scanValue) : base(name, canLand, coords,scanValue,descrtiption)
         {
-            this.desctiption = descrtiption;
+            
         }
     }
 }

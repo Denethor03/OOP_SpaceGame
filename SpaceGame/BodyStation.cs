@@ -9,6 +9,6 @@ namespace SpaceGame
 {
     internal class BodyStation : Body
     {
-        public BodyStation(string name, Vector3 coords) : base(name, true, coords,0) { }     
+        public BodyStation(string name, Vector3 coords) : base(name, true, coords,0,"") { }     
     }
 }
