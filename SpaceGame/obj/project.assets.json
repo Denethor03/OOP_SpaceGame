@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\szych\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\SpaceGame.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\AGH\\Designing high apps\\SpaceGame\\SpaceGame\\SpaceGame.csproj",
       "projectName": "SpaceGame",
-      "projectPath": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\SpaceGame.csproj",
-      "packagesPath": "C:\\Users\\szych\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szych\\Desktop\\AGH\\Designing high apps\\SpaceGame\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\AGH\\Designing high apps\\SpaceGame\\SpaceGame\\SpaceGame.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\AGH\\Designing high apps\\SpaceGame\\SpaceGame\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\szych\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
