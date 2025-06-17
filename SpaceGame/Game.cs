@@ -19,7 +19,8 @@ namespace SpaceGame
             
             FactoryPlanet planetFactory = new FactoryPlanet();
             FactoryStation stationFactory = new FactoryStation();
-            FactorySystem systemFactory = new FactorySystem(planetFactory,stationFactory);
+            FactoryStar starFactory = new FactoryStar();
+            FactorySystem systemFactory = new FactorySystem(planetFactory,stationFactory,starFactory);
             
             List<StarSystem> starSystems = systemFactory.CreateSystem(size);
             gameWorld = new Universe(starSystems);

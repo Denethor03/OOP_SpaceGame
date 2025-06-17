@@ -11,8 +11,8 @@ namespace SpaceGame
         public string Name => "Refuel ship";
         public Result Execute(Ship ship)
         {
-            ship.Fuel = ship.MaxFuel;
-            return new Result($"Ship refueled\nCurrent fuel: {ship.MaxFuel}");
+            ship.Fuel = ship.Hull.MaxFuel;
+            return new Result($"Ship refueled\nCurrent fuel: {ship.Fuel}");
         }
     }
 }

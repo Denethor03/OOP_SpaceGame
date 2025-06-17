@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SpaceGame
 {
-    internal class PlanetTemplate
+    internal class TemplatePlanet
     {
         public required string TypeName { get; set; }
         public required string Description { get; set; }

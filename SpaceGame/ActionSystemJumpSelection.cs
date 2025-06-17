@@ -12,7 +12,7 @@ namespace SpaceGame
         public Result Execute(Ship ship)
         {
             List<IAction> followUpAction = new List<IAction>();
-            foreach (StarSystem system in ship.currentUniverse.starSystems)
+            foreach (StarSystem system in ship._currentUniverse.starSystems)
             {
                 followUpAction.Add(new ActionExecuteSystemJump(system));
             }

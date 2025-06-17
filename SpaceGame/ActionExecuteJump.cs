@@ -10,10 +10,15 @@ namespace SpaceGame
     {
         public string Name { get; set; }
         private readonly Body _destination;
+        private string typeSymbol = string.Empty;
         public ActionExecuteJump(Body body)
         {
             _destination = body;
-            Name = $"{body.Name}";
+            if (body is BodyStar) typeSymbol = "*";
+            if (body is BodyPlanet) typeSymbol = "o";
+            if (body is BodyStation) typeSymbol = "[]";
+
+            Name = $"{typeSymbol} {body.Name}";
         }
 
         public Result Execute(Ship ship)

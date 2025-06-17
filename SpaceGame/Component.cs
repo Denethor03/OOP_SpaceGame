@@ -8,5 +8,14 @@ namespace SpaceGame
 {
     internal abstract class Component
     {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public int Price { get; set; }
+
+        public Component()
+        {
+            Name = string.Empty;
+            Description = string.Empty;
+        }
     }
 }

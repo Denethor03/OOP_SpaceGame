@@ -15,7 +15,7 @@ namespace SpaceGame
         {
             int templateIndex = _random.Next(0, Parameters.planetTemplates.Count);
             
-            PlanetTemplate selectedTemplate = Parameters.planetTemplates[templateIndex];
+            TemplatePlanet selectedTemplate = Parameters.planetTemplates[templateIndex];
 
             string name = $"{systemName}-{number} {selectedTemplate.TypeName}";
             string desctiption = selectedTemplate.Description;

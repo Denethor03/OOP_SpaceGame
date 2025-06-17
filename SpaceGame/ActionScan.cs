@@ -14,10 +14,10 @@ namespace SpaceGame
 
             if (!ship.CurrentBody.Scanned)
             { 
-                ship.ScanReward += ship.GetCurrentBody().scanValue;
+                ship.ScanReward += ship.CurrentBody.scanValue;
                 ship.CurrentBody.Scanned = true;
                 return new Result($"Scan completed.\n" +
-                    $"Planet: {ship.CurrentBody.Name}\n" +
+                    $"Object: {ship.CurrentBody.Name}\n" +
                     $"{ship.CurrentBody.Description}\n" +
                     $"Scan value: {ship.CurrentBody.scanValue}");
             }

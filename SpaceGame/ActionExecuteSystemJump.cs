@@ -19,6 +19,7 @@ namespace SpaceGame
         public Result Execute(Ship ship)
         {
             ship.CurrentSystem = _destination;
+            ship.CurrentBody = _destination.Bodies[0];
             return new Result($"Jump to {_destination.Name} complete");
         }
     }

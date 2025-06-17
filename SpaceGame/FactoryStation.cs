@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,9 +9,21 @@ namespace SpaceGame
 {
     internal class FactoryStation : FactoryBody
     {
-        public override BodyStation CreateBody(string systemName,int number, int c)
+        private readonly Random _random = new Random();
+        public override BodyStation CreateBody(string systemName, int number, int orbitDistance)
         {
-            return new BodyStation("asd",new System.Numerics.Vector3(1,1,1));
+            int templateIndex = _random.Next(0, Parameters.StationTemplates.Count);
+
+            TemplateStation selectedTemplate = Parameters.StationTemplates[templateIndex];
+
+            string name = $"{selectedTemplate.FactionTypeName}";
+            string desctiption = selectedTemplate.Description;
+            Vector3 position = new Vector3(orbitDistance, 0, 0);
+            
+
+            var station = new BodyStation(name, position, selectedTemplate);
+
+            return station;
         }
     }
 }
