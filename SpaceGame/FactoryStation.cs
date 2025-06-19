@@ -19,9 +19,12 @@ namespace SpaceGame
             string name = $"{selectedTemplate.FactionTypeName}";
             string desctiption = selectedTemplate.Description;
             Vector3 position = new Vector3(orbitDistance, 0, 0);
-            
-
             var station = new BodyStation(name, position, selectedTemplate);
+            if (station.HasShipyard)
+            {
+                FactoryComponent factoryComponent = new FactoryComponent();
+                station.setStock(factoryComponent.CreateStock(station.TechLevel));
+            }
 
             return station;
         }

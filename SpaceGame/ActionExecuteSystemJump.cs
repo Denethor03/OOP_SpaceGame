@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,10 +11,10 @@ namespace SpaceGame
     {
         public string Name { get; set; }
         private readonly StarSystem _destination;
-        public ActionExecuteSystemJump(StarSystem system)
+        public ActionExecuteSystemJump(StarSystem system,Ship ship)
         {
             _destination = system;
-            Name = $"{system.Name}";
+            Name = $"{system.Name} ({Vector3.Distance(ship.CurrentSystem.SystemCoords,system.SystemCoords)} ly)";
         }
 
         public Result Execute(Ship ship)

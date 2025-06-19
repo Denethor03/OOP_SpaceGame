@@ -29,8 +29,21 @@ namespace SpaceGame
                 var select = Console.ReadLine();
                 if (int.TryParse(select, out int id))
                 {
-                    if (id > actions.Count) { Console.WriteLine($"DEBUG: The selected action is null"); return null; } //temp
+                    if (id > actions.Count || id < 1) 
+                    {
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Invalid selection. Try again");
+                        continue;
+                    } 
                     return actions[id-1];
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Not a number");
+                    continue;
                 }
             }
             

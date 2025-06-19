@@ -13,7 +13,7 @@ namespace SpaceGame
         {
             this.JumpRange = jumpRange;
             this.Name = $"FTL Drive (Range: {jumpRange} units)";
-            this.Description = $"A hyperdrive capable of jumps up to {jumpRange} units.";
+            this.Description = $"A hyperdrive capable of jumps up to {jumpRange} light years.";
             this.Price = (int)Math.Pow(jumpRange, 2.5); 
         }
     }

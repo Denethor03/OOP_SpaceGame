@@ -13,14 +13,16 @@ namespace SpaceGame
         private StarSystem _currentSystem;
         private IShipState _currentState;
         private double _credits;
-        private int _scanReward;
+        private double _scanReward;
 
         private int _fuel;
+        private double _durability;
+        public double Durability { get => _durability; set => _durability = value; }
         public ComponentHull Hull { get; set; }
         public ComponentEngines Engines { get; set; }
         public ComponentScanner Scanner { get; set; }
     
-        public int ScanReward { get => _scanReward; set => _scanReward = value; }
+        public double ScanReward { get => _scanReward; set => _scanReward = value; }
         public int Fuel 
         { get => _fuel; set 
             {
@@ -47,9 +49,10 @@ namespace SpaceGame
             this._currentState = new StateDocked();
             Hull = new ComponentHull(100,10);
             Scanner = new ComponentScanner(1);
-            Engines = new ComponentEngines(1);
-            _credits = 0;
+            Engines = new ComponentEngines(10);
+            _credits = 1000;
             Fuel = Hull.MaxFuel;
+            this._durability = Hull.HullDurability;
         }
 
         public void ChangeState(IShipState state)

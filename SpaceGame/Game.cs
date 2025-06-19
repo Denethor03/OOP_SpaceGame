@@ -14,9 +14,19 @@ namespace SpaceGame
         private Ship? ship;
         public void Run()
         {
+            Console.WriteLine(@"
+              _________                             ________                       
+             /   _____/__________    ____  ____    /  _____/_____    _____   ____  
+             \_____  \\____ \__  \ _/ ___\/ __ \  /   \  ___\__  \  /     \_/ __ \ 
+             /        \  |_> > __ \\  \__\  ___/  \    \_\  \/ __ \|  Y Y  \  ___/ 
+            /_______  /   __(____  /\___  >___  >  \______  (____  /__|_|  /\___  >
+                    \/|__|       \/     \/    \/          \/     \/      \/     \/ 
+
+            ");
+
             userInterface = new UI();
             int size = userInterface.SelectSize();
-            
+            Console.Clear();
             FactoryPlanet planetFactory = new FactoryPlanet();
             FactoryStation stationFactory = new FactoryStation();
             FactoryStar starFactory = new FactoryStar();

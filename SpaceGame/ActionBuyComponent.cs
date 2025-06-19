@@ -14,7 +14,7 @@ namespace SpaceGame
         {
             Name = $"{component.Name}\n" +
                 $"{component.Description}\n" +
-                $"{component.Price}";
+                $"Cost: {component.Price} credits";
             _component = component;
         }
 

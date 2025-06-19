@@ -14,7 +14,7 @@ namespace SpaceGame
             List<IAction> followUpAction = new List<IAction>();
             foreach (StarSystem system in ship._currentUniverse.starSystems)
             {
-                followUpAction.Add(new ActionExecuteSystemJump(system));
+                followUpAction.Add(new ActionExecuteSystemJump(system,ship));
             }
             followUpAction.Add(new ActionCancel());
             return new Result("Please select jump destination:", followUpAction);

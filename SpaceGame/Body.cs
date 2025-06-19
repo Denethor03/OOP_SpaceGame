@@ -10,7 +10,7 @@ namespace SpaceGame
     internal abstract class Body
     {
         private string name;
-        private Vector3 coordinates;
+        private Vector3 _coordinates;
         private bool canLand;
         private string description;
         private bool scanned = false;
@@ -19,6 +19,7 @@ namespace SpaceGame
         public string Name { get => name; }
         
         public bool Scanned { get=> scanned; set=> scanned = value; }
+        public Vector3 Coordinates { get=>_coordinates; }
        
 
 
@@ -27,7 +28,7 @@ namespace SpaceGame
         {
             this.name = name;
             this.canLand = canLand;
-            this.coordinates = coordinates;
+            this._coordinates = coordinates;
             this.scanValue = scanValue;
             this.description = description;
           
