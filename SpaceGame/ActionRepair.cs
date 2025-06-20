@@ -20,7 +20,7 @@ namespace SpaceGame
             }
             else
             {
-                return new Result("Not enough credits to repair");
+                return new Result(false,"Not enough credits to repair");
             }
         }
     }

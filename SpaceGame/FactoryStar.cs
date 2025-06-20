@@ -22,7 +22,8 @@ namespace SpaceGame
             Vector3 position = new Vector3(orbitDistance, 0, 0);
             int scanValue = _random.Next(selectedTemplate.MinScanReward, selectedTemplate.MaxScanReward + 1);
 
-            var star = new BodyStar(name, position, false, desctiption, scanValue);
+            var star = new BodyStar(name, position, false, desctiption,
+                scanValue,selectedTemplate.CanRefuel,selectedTemplate.DamageModifier);
 
             return star;
         }

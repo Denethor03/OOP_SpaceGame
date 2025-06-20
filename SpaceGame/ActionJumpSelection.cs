@@ -14,7 +14,10 @@ namespace SpaceGame
             List<IAction> followUpAction = new List<IAction>();
             foreach(Body body in ship.CurrentSystem.Bodies)
             {
-                followUpAction.Add(new ActionExecuteJump(body,ship));
+                if (ship.CurrentBody != body)
+                {
+                    followUpAction.Add(new ActionExecuteJump(body, ship));
+                }
             }
             followUpAction.Add(new ActionCancel());
             return new Result("Please select jump destination:",followUpAction);

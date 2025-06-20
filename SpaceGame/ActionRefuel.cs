@@ -16,11 +16,11 @@ namespace SpaceGame
             {
                 ship.Fuel = ship.Hull.MaxFuel;
                 ship.RemoveCredits(refuelCost);
-                return new Result($"Ship refueled for {refuelCost} credits\nCurrent fuel: {ship.Fuel}");
+                return new Result(true,$"Ship refueled for {refuelCost:F2} credits\nCurrent fuel: {ship.Fuel:F2}");
             }
             else
             {
-                return new Result($"Not enough cretids to refuel!");
+                return new Result(false,$"Not enough cretids to refuel!");
             }
         }
     }

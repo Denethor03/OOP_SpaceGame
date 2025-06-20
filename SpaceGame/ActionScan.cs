@@ -14,7 +14,7 @@ namespace SpaceGame
 
             if (!ship.CurrentBody.Scanned)
             { 
-                double scanValue = ship.CurrentBody.scanValue * ship.Scanner.ScannerQuality;
+                double scanValue = ship.CurrentBody.ScanValue * ship.Scanner.ScannerQuality;
                 ship.ScanReward += scanValue;
                 ship.CurrentBody.Scanned = true;
                 return new Result($"Scan completed.\n" +

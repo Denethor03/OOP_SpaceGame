@@ -15,7 +15,7 @@ namespace SpaceGame
         private double _credits;
         private double _scanReward;
 
-        private int _fuel;
+        private double _fuel;
         private double _durability;
         public double Durability { get => _durability; set => _durability = value; }
         public ComponentHull Hull { get; set; }
@@ -23,7 +23,7 @@ namespace SpaceGame
         public ComponentScanner Scanner { get; set; }
     
         public double ScanReward { get => _scanReward; set => _scanReward = value; }
-        public int Fuel 
+        public double Fuel 
         { get => _fuel; set 
             {
                 if (value > Hull.MaxFuel)
@@ -44,8 +44,6 @@ namespace SpaceGame
         public Ship(Universe universe)
         {
             this._currentUniverse = universe;
-            _currentSystem = universe.starSystems[0]; //assume first system is starter system
-            _currentBody = _currentSystem.Bodies[0]; //assume sun is 1st body in list
             this._currentState = new StateDocked();
             Hull = new ComponentHull(100,10);
             Scanner = new ComponentScanner(1);
@@ -53,6 +51,18 @@ namespace SpaceGame
             _credits = 1000;
             Fuel = Hull.MaxFuel;
             this._durability = Hull.HullDurability;
+            foreach (var system in universe.starSystems)
+            {
+                _currentSystem = system;
+                foreach (var body in system.Bodies)
+                {
+                    if (body is BodyStation station)
+                    {
+                        _currentBody = station;
+                        return;
+                    }
+                }
+            }
         }
 
         public void ChangeState(IShipState state)

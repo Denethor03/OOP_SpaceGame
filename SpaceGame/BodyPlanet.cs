@@ -10,9 +10,7 @@ namespace SpaceGame
     internal class BodyPlanet : Body
     {
         
-        public BodyPlanet(string name, Vector3 coords, bool canLand, string descrtiption,int scanValue) : base(name, canLand, coords,scanValue,descrtiption)
-        {
-            
-        }
+        public BodyPlanet(string name, Vector3 coords, bool canLand, string descrtiption,int scanValue) : 
+            base(name, canLand, coords,scanValue,descrtiption){}
     }
 }

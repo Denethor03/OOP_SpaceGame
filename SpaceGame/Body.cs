@@ -11,15 +11,16 @@ namespace SpaceGame
     {
         private string name;
         private Vector3 _coordinates;
-        private bool canLand;
-        private string description;
-        private bool scanned = false;
-        public string Description { get => description; }
-        public int scanValue { get;  }
+        private bool _canLand;
+        private string _description;
+        private bool _scanned = false;
+        public string Description { get => _description; }
+        public int ScanValue { get;  }
         public string Name { get => name; }
         
-        public bool Scanned { get=> scanned; set=> scanned = value; }
+        public bool Scanned { get=> _scanned; set=> _scanned = value; }
         public Vector3 Coordinates { get=>_coordinates; }
+        public bool CanLand => _canLand;
        
 
 
@@ -27,10 +28,10 @@ namespace SpaceGame
             bool canLand, Vector3 coordinates, int scanValue,string description)
         {
             this.name = name;
-            this.canLand = canLand;
+            this._canLand = canLand;
             this._coordinates = coordinates;
-            this.scanValue = scanValue;
-            this.description = description;
+            this.ScanValue = scanValue;
+            this._description = description;
           
         }
 

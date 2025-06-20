@@ -12,6 +12,8 @@ namespace SpaceGame
         public string Description { get; set; }
         public int Price { get; set; }
 
+        public double Mass { get; protected set; }
+
         public Component()
         {
             Name = string.Empty;

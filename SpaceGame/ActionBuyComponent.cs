@@ -22,7 +22,7 @@ namespace SpaceGame
         {
             if (ship.Credits < _component.Price)
             {
-                return new Result("Not enough credits for purchase");
+                return new Result(false,"Not enough credits for purchase");
             }
             else
             {

@@ -13,15 +13,16 @@ namespace SpaceGame
         {
             return new Result($"Current location:" +
                 $"{ship.CurrentBody.Name} {ship.CurrentBody.Coordinates}" +
-                $" at system {ship.CurrentSystem.Name} {ship.CurrentSystem.SystemCoords}\n" +
-                $"Current fuel: {ship.Fuel}\n" +
-                $"Max fuel: {ship.Hull.MaxFuel}\n" +
-                $"Current credits: {ship.Credits}\n" +
-                $"Scanned data value: {ship.ScanReward}\n" +
-                $"Current hull durability: {ship.Hull.HullDurability}\n" +
-                $"Max hull durability: {ship.Hull.HullDurability}\n" +
-                $"Jump range: {ship.Engines.JumpRange} light years\n" +
-                $"Scanner quality: {ship.Scanner.ScannerQuality}\n");
+                $" at system {ship.CurrentSystem.Name} {ship.CurrentSystem.SystemCoords:F1}\n" +
+                $"Ship mass: {ship.Engines.Mass+ship.Hull.Mass+ship.Scanner.Mass:F1}\n" +
+                $"Current fuel: {ship.Fuel:F1}\n" +
+                $"Max fuel: {ship.Hull.MaxFuel:F1}\n" +
+                $"Current credits: {ship.Credits:F1}\n" +
+                $"Scanned data value: {ship.ScanReward:F1}\n" +
+                $"Current hull durability: {ship.Durability:F1}\n" +
+                $"Max hull durability: {ship.Hull.HullDurability:F1}\n" +
+                $"Jump range: {ship.Engines.JumpRange:F1} light years\n" +
+                $"Scanner quality: {ship.Scanner.ScannerQuality:F1}\n");
         }
         
     }

@@ -16,7 +16,8 @@ namespace SpaceGame
             MaxFuel = fuel;
             this.Name = $"Reinforced Bulkhead Mk-{Math.Round((double)durability / 100)}"; 
             this.Description = $"A solid hull plating structure providing {durability} hit points.";
-            this.Price = durability * 15; 
+            this.Price = durability * 15;
+            this.Mass = durability * 15 + 10;
         }
     }
 }
