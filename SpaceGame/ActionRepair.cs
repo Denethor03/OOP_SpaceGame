@@ -12,11 +12,11 @@ namespace SpaceGame
         public Result Execute(Ship ship)
         {
             double repairCost = (ship.Hull.HullDurability - ship.Durability) * 10;
-            if (ship.Credits >= repairCost)
+            if (ship.RemoveCredits(repairCost))
             {
-                ship.Durability = ship.Hull.HullDurability;
-                ship.RemoveCredits(repairCost);
-                return new Result("Ship fully repaired");
+                ship.Repair();
+                
+                return new Result($"Ship fully repaired for {repairCost:F1} credits");
             }
             else
             {

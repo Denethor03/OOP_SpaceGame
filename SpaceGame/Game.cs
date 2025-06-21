@@ -39,7 +39,7 @@ namespace SpaceGame
                 IAction selectedAction = userInterface.ChooseAction(actions);
                 Result result = ship.PerformAction(selectedAction);
                 userInterface.DisplayResult(result);
-
+                //Console.WriteLine($"DEBUG: LSTATION: {ship.LastStation.Name} LSYSTEM: {ship.LastStarSystem.Name}");
                 if (result.followUpActions.Any())
                 {
                     actions = result.followUpActions;

@@ -16,6 +16,7 @@ namespace SpaceGame
             _actions.Add(new ActionJumpSelection());
             _actions.Add(new ActionSystemJumpSelection());
             _actions.Add(new ActionScan());
+            _actions.Add(new ActionSelfDestruct());
             if (ship.CurrentBody is BodyStation) { _actions.Add(new ActionDock()); }
             if (ship.CurrentBody is BodyPlanet planet && planet.CanLand) { _actions.Add(new ActionLand()); }
             if (ship.CurrentBody is BodyStar && ship.Fuel != ship.Hull.MaxFuel) {_actions.Add(new ActionDeployFuelScoop()); }

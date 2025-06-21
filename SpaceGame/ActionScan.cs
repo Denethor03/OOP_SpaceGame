@@ -21,7 +21,7 @@ namespace SpaceGame
                     $"Object: {ship.CurrentBody.Name}\n" +
                     $"Position: {ship.CurrentBody.Coordinates}\n" +
                     $"{ship.CurrentBody.Description}\n" +
-                    $"Scan value: {scanValue}");
+                    $"Scan value: {scanValue:F1}");
             }
             else
             {

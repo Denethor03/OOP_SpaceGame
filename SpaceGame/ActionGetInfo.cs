@@ -22,7 +22,8 @@ namespace SpaceGame
                 $"Current hull durability: {ship.Durability:F1}\n" +
                 $"Max hull durability: {ship.Hull.HullDurability:F1}\n" +
                 $"Jump range: {ship.Engines.JumpRange:F1} light years\n" +
-                $"Scanner quality: {ship.Scanner.ScannerQuality:F1}\n");
+                $"Scanner quality: {ship.Scanner.ScannerQuality:F1}\n" +
+                $"Insurance cost: {(ship.Scanner.Price+ship.Hull.Price+ship.Engines.Price)/20:F1}");
         }
         
     }

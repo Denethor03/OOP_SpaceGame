@@ -20,7 +20,7 @@ namespace SpaceGame
 
         public Result Execute(Ship ship)
         {
-            if (ship.Credits < _component.Price)
+            if (!ship.RemoveCredits(_component.Price))
             {
                 return new Result(false,"Not enough credits for purchase");
             }
@@ -37,8 +37,7 @@ namespace SpaceGame
                 if(_component is ComponentEngines engines)
                 {
                     ship.Engines = engines;
-                }
-                ship.RemoveCredits(_component.Price);
+                }          
                 return new Result("Component purchased succesfully");
             }
         }

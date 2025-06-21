@@ -17,7 +17,7 @@ namespace SpaceGame
                 ship.AddCredits(ship.ScanReward*station.ScanRewardModifier);
                 double temp = ship.ScanReward*station.ScanRewardModifier;
                 ship.ScanReward = 0;
-                return new Result($"Data sold for {temp}");
+                return new Result($"Data sold for {temp:F1}");
             }
             else
             {

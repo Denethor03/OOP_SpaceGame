@@ -13,6 +13,7 @@ namespace SpaceGame
         public Result Execute(Ship ship)
         {
             ship.ChangeState(new StateOrbitingBody());
+            ship.Fuel -= 0.1;
             return new Result($"Launch succesfull. Now orbiting {ship.CurrentBody.Name}");
         }
     }

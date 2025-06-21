@@ -35,8 +35,20 @@ namespace SpaceGame
                 ship.Fuel-=jumpDistance*1; // "1" could be replaced with some modifier based on ship mass or something else
                 ship.CurrentSystem = _destination;
                 ship.CurrentBody = _destination.Bodies[0];
-                ship.Durability -= ship.Hull.HullDurability / 50; //jumping slightly damages ship
-                return new Result($"Jump to {_destination.Name} complete");
+                if(ship.TakeDamage(ship.Hull.HullDurability / 50)) //jumping slightly damages ship
+                {
+                    return new Result($"Jump to {_destination.Name} complete");
+                }
+                else
+                {
+                    return new Result(false, $"Critical systems failure! Your ship was" +
+                        $" destroyed by the intense stress caused by jump! " +
+                        $"Your emergency beacon was activated, and you have been towed to your last registered station. " +
+                        $"An insurance premium has been deducted from your account.");
+                }
+                  
+
+                
             }
             
         }
