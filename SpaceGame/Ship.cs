@@ -50,23 +50,32 @@ namespace SpaceGame
             Hull = new ComponentHull(100,10);
             Scanner = new ComponentScanner(1);
             Engines = new ComponentEngines(10);
-            _credits = 1;
+            _credits = 1000000;
             Fuel = Hull.MaxFuel;
             this._durability = Hull.HullDurability;
             foreach (var system in universe.starSystems)
             {
-                _currentSystem = system;
-                LastStarSystem = system;
+                
                 foreach (var body in system.Bodies)
                 {
                     if (body is BodyStation station)
                     {
+                        _currentSystem = system;
+                        LastStarSystem = system;
                         _currentBody = station;
                         LastStation = station;
                         return;
                     }
                 }
             }
+            // in case no station is found (very unlikely)
+            _currentSystem = universe.starSystems[0];
+            LastStarSystem = _currentSystem;
+            _currentBody = _currentSystem.Bodies[0];
+            LastStation = _currentBody;
+            _currentState = new StateOrbitingBody();
+                
+            
         }
 
         public void ChangeState(IShipState state)

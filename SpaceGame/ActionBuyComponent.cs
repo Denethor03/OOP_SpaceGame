@@ -28,14 +28,26 @@ namespace SpaceGame
             {
                 if(_component is ComponentHull hull)
                 {
+                    if (ship.Hull == hull) 
+                    {
+                        return new Result(false, "You already have this");
+                    }
                     ship.Hull = hull;
                 }
                 if(_component is ComponentScanner scanner)
                 {
+                    if (ship.Scanner == scanner)
+                    {
+                        return new Result(false, "You already have this");
+                    }
                     ship.Scanner = scanner;
                 }
                 if(_component is ComponentEngines engines)
                 {
+                    if (ship.Engines == engines)
+                    {
+                        return new Result(false, "You already have this");
+                    }
                     ship.Engines = engines;
                 }          
                 return new Result("Component purchased succesfully");

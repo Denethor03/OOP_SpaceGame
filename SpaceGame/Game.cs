@@ -28,7 +28,7 @@ namespace SpaceGame
             List<StarSystem> starSystems = systemFactory.CreateSystem(size);
             gameWorld = new Universe(starSystems);
             
-            Ship ship = new Ship(gameWorld);
+            ship = new Ship(gameWorld);
            
             Console.WriteLine("Game started");
             
